@@ -19,7 +19,7 @@ module.exports = {
     entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
-        publicPath: './',
+        publicPath: '/',
         filename: 'bundle.js'
     },
     devtool: 'inline-source-map',
