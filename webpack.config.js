@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
  
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-      template: './index.html',
+      template: path.resolve('./index.html'),
       filename: 'index.html',
       inject: 'body'
 });
